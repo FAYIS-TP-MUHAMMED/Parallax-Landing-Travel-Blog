@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-image: url(./drif-riadh-YpkuRn54y4w-unsplash.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+header{
+     position:fixed;
+     top: 15px;
+     text-align: right;
+     width: 100%;
+     z-index: 100;
+}
+header.container{
+    flex-wrap: wrap; /* Make links wrap on smaller screens */
+}
+.menu-toggle {
+    display: none;
+  }
+header, a{
+    color: rgba(6, 6, 87, 0.7);
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 16px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s ease-in-out;
+}
+header,a:hover{
+    color: white;
+}
+main h1{
+    margin: 0px;
+    font-size: 50px;
+    mix-blend-mode:overlay ;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+    header .container {
+        justify-content: center;
+    }
+    header a{
+       margin-right: 60px;
+      
+    }
+}
+@media (max-width: 768px) {
+    header .container {
+        justify-content: center;
+        padding-right: 20px;
+    }
+
+   header a {
+        font-size: 15px;
+        padding: 7px;  
+        margin: 5px; /* Reduced margin for smaller screens */
+    }   
+
+   main  h1 {
+        font-size: 40px;
+       
+    } 
+
+    main {
+        padding: 10px;
+    } 
+
+    header nav {
+        width: 100%;
+        display: none; /* Initially hide the navigation for a mobile menu toggle */
+        flex-direction: column;
+        align-items: flex-start;
+      } 
+      .menu-toggle {
+        display:block;
+        cursor: pointer;
+
+      }
+      .menu-toggle:hover{
+        color: rgb(231, 231, 243);
+        
+      }
+    
+      .menu-toggle.active + nav {
+        display: flex; /* Show the navigation when the toggle is active */
+        align-items: end;
+      }
+
+}
+
+
+@media (max-width: 480px) {
+    header {
+        padding: 5px 0;
+    }
+
+    header a {
+        font-size: 0.9em;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    main {
+        padding: 5px;
+    }
+}
