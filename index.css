@@ -84,6 +84,7 @@ main h1{
       .menu-toggle {
         display:block;
         cursor: pointer;
+        size:30px;
 
       }
       .menu-toggle:hover{
@@ -110,6 +111,7 @@ main h1{
 
     h1 {
         font-size: 1.2em;
+        color: black;
     }
 
     main {
