@@ -1,6 +1,6 @@
 Parallax Landing Page - Travel Blog 🌍✨
 
-Welcome to my Parallax Landing Page for a Travel Blog! 
+This is a sample Parallax Landing Page for a Travel Blog! 
 This project showcases a visually stunning and responsive web page,With captivating parallax scrolling effects.
 
 Features
