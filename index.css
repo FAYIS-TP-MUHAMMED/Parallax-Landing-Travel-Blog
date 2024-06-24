@@ -69,6 +69,7 @@ main h1{
    main  h1 {
         font-size: 40px;
        
+       
     } 
 
     main {
@@ -109,7 +110,7 @@ main h1{
         font-size: 0.9em;
     }
 
-    h1 {
+   main h1 {
         font-size: 1.2em;
         color: black;
         mix-blend-mode: normal;
