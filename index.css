@@ -69,10 +69,12 @@ main h1{
    main  h1 {
         font-size: 40px;
        
+       
     } 
 
     main {
         padding: 10px;
+        mix-blend-mode:normal;
     } 
 
     header nav {
