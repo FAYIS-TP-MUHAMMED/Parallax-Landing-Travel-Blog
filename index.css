@@ -1,4 +1,4 @@
-body{
+body{ 
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -84,6 +84,7 @@ main h1{
       .menu-toggle {
         display:block;
         cursor: pointer;
+        font-size: 22px;
 
       }
       .menu-toggle:hover{
@@ -110,9 +111,14 @@ main h1{
 
     h1 {
         font-size: 1.2em;
+        color: black;
+        mix-blend-mode: normal;
     }
 
     main {
         padding: 5px;
+    }
+    .menu-toggle{
+        font-size: 23px;
     }
 }
