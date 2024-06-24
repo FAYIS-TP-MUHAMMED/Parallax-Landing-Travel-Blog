@@ -84,7 +84,7 @@ main h1{
       .menu-toggle {
         display:block;
         cursor: pointer;
-        font-size:30px;
+        font-size:50px;
 
       }
       .menu-toggle:hover{
@@ -109,9 +109,9 @@ main h1{
         font-size: 0.9em;
     }
 
-    h1 {
+   main h1 {
         font-size: 1.2em;
-        color: black;
+        mix-blend-mode:normal ;
     }
 
     main {
