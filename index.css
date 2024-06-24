@@ -113,7 +113,8 @@ main h1{
 
    main h1 {
         font-size: 1.2em;
-        mix-blend-mode:normal ;
+        color: red;
+        mix-blend-mode: normal;
     }
 
     main {
