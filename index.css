@@ -67,14 +67,13 @@ main h1{
     }   
 
    main  h1 {
-        font-size: 40px;
+        font-size: 140px;
        
        
     } 
 
     main {
         padding: 10px;
-        mix-blend-mode:normal;
     } 
 
     header nav {
@@ -86,7 +85,6 @@ main h1{
       .menu-toggle {
         display:block;
         cursor: pointer;
-        font-size:50px;
 
       }
       .menu-toggle:hover{
@@ -113,8 +111,6 @@ main h1{
 
    main h1 {
         font-size: 1.2em;
-        color: red;
-        mix-blend-mode: normal;
     }
 
     main {
